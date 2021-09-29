@@ -15,8 +15,8 @@ CREATE TABLE IF NOT EXISTS customer_db.customer_tab (
 
 CREATE TABLE IF NOT EXISTS order_db.order_tab (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    catalogId INT,
-    customerId INT
+    catalog_id INT,
+    customer_id INT
 );
 
 INSERT INTO catalog_db.catalog_tab VALUES (1,'crowbar',7);
