@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS order_db.order_tab (
     id INT AUTO_INCREMENT PRIMARY KEY,
     catalogId INT,
     customerId INT
-)
+);
 
 INSERT INTO catalog_db.catalog_tab VALUES (1,"crowbar",7);
 INSERT INTO catalog_db.catalog_tab VALUES (2,"deodorant",71);
